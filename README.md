@@ -13,7 +13,7 @@ Code is licensed under MIT. Content is licensed under CC-BY-SA 3.0. See the LICE
 
 These are common Git commands used in various situations in our project:
 
-####1. start a working area (see also: git help tutorial) in a folder '/project' with the terminal
+#### 1. start a working area (see also: git help tutorial) in a folder '/project' with the terminal
 
 + **clone**      Clone a repository into a new directory
 
@@ -21,7 +21,7 @@ These are common Git commands used in various situations in our project:
 
 
 <Enter>
-####2. work on the current change (see also: git help everyday)
+#### 2. work on the current change (see also: git help everyday)
 
 + **add**        Add file contents to the index
 
@@ -36,7 +36,7 @@ These are common Git commands used in various situations in our project:
 
 <Enter>
 
-####3. examine the history and state (see also: git help revisions)
+#### 3. examine the history and state (see also: git help revisions)
 
 + **status**     Show the working tree status **_!CAUTION:_** in the beginning try to check your status after every step you entered a git command!
 
@@ -44,7 +44,7 @@ These are common Git commands used in various situations in our project:
 
 <Enter>
 
-####4. grow, mark and tweak your common history
+#### 4. grow, mark and tweak your common history
 
 + **branch**     List, create, or delete branches
 + **checkout**   Switch branches or restore working tree files
@@ -59,7 +59,7 @@ These are common Git commands used in various situations in our project:
 
 <Enter>
 
-####5.  collaborate (see also: git help workflows)
+#### 5.  collaborate (see also: git help workflows)
 
 + **pull**       Fetch from and integrate with another repository or a local branch
 
