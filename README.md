@@ -13,12 +13,15 @@ Code is licensed under MIT. Content is licensed under CC-BY-SA 3.0. See the LICE
 
 These are common Git commands used in various situations in our project:
 
-`### 1. start a working area in a folder '/project' with the terminal
+===
+
+### 1. start a working area in a folder '/project' with the terminal
 
 + **clone**      Clone a repository into a new directory
 
-`$git clone https://github.com/RailingResi/ICT302.git``
+`$git clone https://github.com/RailingResi/ICT302.git`
 
+===
 
 ### 2. work on the current change 
 
@@ -33,7 +36,7 @@ These are common Git commands used in various situations in our project:
 
 **_CAUTION:_** Delete files only within the terminal!!!
 
-
+===
 
 ### 3. examine the history and state (see also: git help revisions)
 
@@ -42,6 +45,8 @@ These are common Git commands used in various situations in our project:
 `$git status`
 
 <Enter>
+
+===
 
 ### 4. grow, mark and tweak your common history
 
@@ -57,6 +62,8 @@ These are common Git commands used in various situations in our project:
 `$git merge 'your brunch'`
 
 <Enter>
+
+===
 
 ### 5.  collaborate (see also: git help workflows)
 
