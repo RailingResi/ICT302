@@ -6,8 +6,6 @@
 
 Code is licensed under MIT. Content is licensed under CC-BY-SA 3.0. See the LICENSE file for details.
 
----
-
 
 ## Small Git Guide
 
@@ -24,18 +22,26 @@ These are common Git commands used in various situations in our project:
 ---
 
 > ### 2. work on the current change 
+
 > **add**        Add file contents to the index
+
 > `$git add .`
+
 > `$git add 'file-name'`
+
 >  **rm**         Remove files from the working tree and from the index 
+
 > `$git rm 'file-name'`
+
 > **_CAUTION:_** Delete files only within the terminal!!!
 
 ---
 
 > ### 3. examine the history and state (see also: git help revisions)
 
-> **status**     Show the working tree status **_!CAUTION:_** in the beginning try to check your status after every step you entered a git command!
+> **status**     Show the working tree status 
+
+>**_!CAUTION:_** in the beginning try to check your status after every step you entered a git command!
 
 > `$git status`
 
@@ -44,12 +50,15 @@ These are common Git commands used in various situations in our project:
 > ### 4. grow, mark and tweak your common history
 
 > **branch**     List, create, or delete branches
+
 > **checkout**   Switch branches or restore working tree files
+
 > **commit**     Record changes to the repository
 
 > `$git commit -m'message what you changed'`
 
 > **diff**       Show changes between commits, commit and working tree, etc
+
 > **merge**      Join two or more development histories together
 
 > `$git merge 'your brunch'`
