@@ -15,67 +15,58 @@ These are common Git commands used in various situations in our project:
 
 ===
 
-### 1. start a working area in a folder '/project' with the terminal
+> ### 1. start a working area in a folder '/project' with the terminal
+>
+> **clone**      Clone a repository into a new directory
+>
+>`$git clone https://github.com/RailingResi/ICT302.git`
 
-+ **clone**      Clone a repository into a new directory
+---
 
-`$git clone https://github.com/RailingResi/ICT302.git`
+> ### 2. work on the current change 
+> **add**        Add file contents to the index
+> `$git add .`
+> `$git add 'file-name'`
+>  **rm**         Remove files from the working tree and from the index 
+> `$git rm 'file-name'`
+> **_CAUTION:_** Delete files only within the terminal!!!
 
-===
+---
 
-### 2. work on the current change 
+> ### 3. examine the history and state (see also: git help revisions)
 
-+ **add**        Add file contents to the index
+> **status**     Show the working tree status **_!CAUTION:_** in the beginning try to check your status after every step you entered a git command!
 
-`$git add .`
-`$git add 'file-name'`
+> `$git status`
 
-+ **rm**         Remove files from the working tree and from the index 
+---
 
-`$git rm 'file-name'`
+> ### 4. grow, mark and tweak your common history
 
-**_CAUTION:_** Delete files only within the terminal!!!
+> **branch**     List, create, or delete branches
+> **checkout**   Switch branches or restore working tree files
+> **commit**     Record changes to the repository
 
-===
+> `$git commit -m'message what you changed'`
 
-### 3. examine the history and state (see also: git help revisions)
+> **diff**       Show changes between commits, commit and working tree, etc
+> **merge**      Join two or more development histories together
 
-+ **status**     Show the working tree status **_!CAUTION:_** in the beginning try to check your status after every step you entered a git command!
+> `$git merge 'your brunch'`
 
-`$git status`
+---
 
-<Enter>
+> ### 5.  collaborate (see also: git help workflows)
 
-===
+> **pull**       Fetch from and integrate with another repository or a local branch
 
-### 4. grow, mark and tweak your common history
+> `$git pull develop`
 
-+ **branch**     List, create, or delete branches
-+ **checkout**   Switch branches or restore working tree files
-+ **commit**     Record changes to the repository
+> **_CAUTION:_** right afterwards 'npm install' to update all the dependencies
 
-`$git commit -m'message what you changed'`
+> **push**       Update remote refs along with associated objects
 
-+ **diff**       Show changes between commits, commit and working tree, etc
-+ **merge**      Join two or more development histories together
-
-`$git merge 'your brunch'`
-
-<Enter>
-
-===
-
-### 5.  collaborate (see also: git help workflows)
-
-+ **pull**       Fetch from and integrate with another repository or a local branch
-
-`$git pull develop`
-
-**_CAUTION:_** right afterwards 'npm install' to update all the dependencies
-
-+ **push**       Update remote refs along with associated objects
-
-`$git push origin 'your brunch'`
+> `$git push origin 'your brunch'`
 
 ---
 
