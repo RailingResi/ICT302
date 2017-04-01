@@ -81,4 +81,8 @@ These are common Git commands used in various situations in our project:
 
 [Check this simple Gitguide](http://rogerdudler.github.io/git-guide/)
 
+## Run the app
 
+[Getting Started with React Native](https://facebook.github.io/react-native/docs/getting-started.html)
+
+> You don't have to set up the Project. Just Clone this Repository go into the folder and try out `react-native run-ios` and `react-native run-android`. It depends on your OS how you will be able to develop the app. Due to that please follow the instructions on the getting started page. But as I have mentioned do not set up a nu project just inform yourself what IDEs we need. For example: XCode (iOS) and Android Studios (Android)
