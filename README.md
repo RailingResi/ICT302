@@ -13,15 +13,14 @@ Code is licensed under MIT. Content is licensed under CC-BY-SA 3.0. See the LICE
 
 These are common Git commands used in various situations in our project:
 
-### 1. start a working area (see also: git help tutorial) in a folder '/project' with the terminal
+`### 1. start a working area in a folder '/project' with the terminal
 
 + **clone**      Clone a repository into a new directory
 
-`$git clone https://github.com/RailingResi/ICT302.git`
+`$git clone https://github.com/RailingResi/ICT302.git``
 
 
-
-### 2. work on the current change (see also: git help everyday)
+### 2. work on the current change 
 
 + **add**        Add file contents to the index
 
@@ -72,5 +71,8 @@ These are common Git commands used in various situations in our project:
 `$git push origin 'your brunch'`
 
 ---
+
+[Check this simple Gitguide](http://rogerdudler.github.io/git-guide/)
+
 
 
