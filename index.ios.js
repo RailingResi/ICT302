@@ -9,21 +9,26 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+    Image
 } from 'react-native';
 
 export default class PerthMint extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <Image
+            style={styles.image}
+            source={require('./images/Perth-Mint-Logo.png')}
+        />
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to Perth Mint!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
         </Text>
         <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
+          Press Cmd+R oh to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
       </View>
@@ -36,7 +41,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#fff7f4',
   },
   welcome: {
     fontSize: 20,
@@ -48,6 +53,10 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+
+    image: {
+
+    }
 });
 
 AppRegistry.registerComponent('PerthMint', () => PerthMint);
